@@ -1,0 +1,30 @@
+.photo {
+  padding: 5px;
+  width: 300px;
+}
+
+.adjust-width {
+  /* width: auto; */
+  /* margin: auto; */
+}
+
+.skill-outer-div {
+  margin-top: 10px;
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skill-inner-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap-border {
+  border: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 350px;
+  margin:auto;
+}
