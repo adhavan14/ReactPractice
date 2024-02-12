@@ -1,0 +1,24 @@
+fileignoreconfig:
+- filename: Date Counter/public/vite.svg
+  checksum: 1500a470488f96dbbb1c1ebc6468d4efd00887aefdc34af66318e1debbdfd5a9
+- filename: Travel list/public/vite.svg
+  checksum: 5ccafa402125d1ccf1f4f5f1fc02f393295d884b06f4a1ec094febefce90c929
+- filename: Steps/public/vite.svg
+  checksum: 150942deb19a9218d2714e54a4c7456737e79704cbfe9f0f81e36814a0ad23e0
+- filename: Profile/public/vite.svg
+  checksum: b5e0197843ce6df15e18b1751f673e5ff060fd2d360476b7917e483c35a7f27e
+- filename: Steps/yarn.lock
+  checksum: 3d9435cc3fb712450eeafb340712e8257b754d094fd05072f2fead9bd2c9ee90
+- filename: Profile/yarn.lock
+  checksum: 5a4d45edc03d31f3a6c7ca60d7ec2e76abd7f341d8495b9245d16842d65acbe8
+- filename: Date Counter/yarn.lock
+  checksum: a02b514f3ed34d9947c441b436e650570b3b269efc1d8d39f5b3a43920b72612
+- filename: Travel list/yarn.lock
+  checksum: 530b8deeac47d2d1d58ba218ddbf4ce0170cf2910a86d1cb60f0a3c92c1e0de1
+- filename: Travel list/src/components/Package.jsx
+  checksum: dd32993af2d8785f3253bb2390587ca3d801def1a07735adc3a340ba21bed72a
+- filename: Flashcard/public/vite.svg
+  checksum: e836d5820fec07b9c29875dd2d002632fd3262b36b0f4332df96ffd706563f75
+- filename: Flashcard/yarn.lock
+  checksum: 620b19d60c4c4049192524a316d8374f28bd90d8e8c4822a785410ebd1da104d
+version: ""

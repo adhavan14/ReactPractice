@@ -1,0 +1,5 @@
+fileignoreconfig:
+- filename: Profile/public/vite.svg
+  checksum: b5e0197843ce6df15e18b1751f673e5ff060fd2d360476b7917e483c35a7f27e
+- filename: Profile/yarn.lock
+  checksum: 5a4d45edc03d31f3a6c7ca60d7ec2e76abd7f341d8495b9245d16842d65acbe8

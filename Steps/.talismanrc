@@ -1,0 +1,5 @@
+fileignoreconfig:
+- filename: Steps/public/vite.svg
+  checksum: 150942deb19a9218d2714e54a4c7456737e79704cbfe9f0f81e36814a0ad23e0
+- filename: Steps/yarn.lock
+  checksum: 3d9435cc3fb712450eeafb340712e8257b754d094fd05072f2fead9bd2c9ee90

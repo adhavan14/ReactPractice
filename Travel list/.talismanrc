@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: Travel list/public/vite.svg
+  checksum: 5ccafa402125d1ccf1f4f5f1fc02f393295d884b06f4a1ec094febefce90c929
+- filename: Travel list/yarn.lock
+  checksum: 530b8deeac47d2d1d58ba218ddbf4ce0170cf2910a86d1cb60f0a3c92c1e0de1
+- filename: Travel list/src/components/Package.jsx
+  checksum: dd32993af2d8785f3253bb2390587ca3d801def1a07735adc3a340ba21bed72a
