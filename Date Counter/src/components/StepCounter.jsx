@@ -7,21 +7,12 @@ const StepCounter = () => {
 
     const [step, setStep] = useState(1)
 
-    const increaseFunction = () => {
-        setStep(step + 1)
-    }
-
-    const decreaseFunction = () => {
-        if (step > 1)
-            setStep(step - 1)
-    }
-
+    
     return (
         <>
             <div className="flex w-36 p-2 justify-between mx-auto">
-                <DecreaseButton decreaseFunction = {decreaseFunction}/>
-                <p>Step : {step}</p>
-                <IncreaseButton increaseFunction = {increaseFunction}/>
+                <input type="range" min={1} max={10} value={step} onChange={(e)=>setStep(Number(e.target.value))}/>
+                <p className="p-2">{step}</p>
             </div>
             <DateCounter step = {step}/>
         </>
