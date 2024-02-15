@@ -9,14 +9,10 @@ const Home = () => {
 
     const contents = Content
 
-    const [isClicked, setIsClicked] = useState(new Array(contents.length).fill(true))
+    const [isClicked, setIsClicked] = useState()
 
-    const handleToggle = (index) => {
-        setIsClicked(prev => {
-            const clicked = [...prev]
-            clicked[index] = !clicked[index]
-            return [...clicked];
-        })
+    const handleToggle = (id) => {
+        setIsClicked(id)
     }
 
     return (
@@ -24,11 +20,11 @@ const Home = () => {
             {
                 contents.map((content, index) => {
                     return (
-                        <Accordion onChange={() => handleToggle(index)}>
+                        <Accordion expanded={isClicked == content.id} onChange={() => handleToggle(content.id)}>
                             <AccordionSummary className="!bg-blue-200 !mb-2" sx={{borderTop: '2px solid #6495ED'}}>
                                 <div className="flex justify-between w-full">
                                     <span>{content.id + "  "}{content.question}</span>
-                                    <span>{isClicked[index] ? "+" : "-"}</span>
+                                    <span>{isClicked== content.id ? "+" : "-"}</span>
                                 </div>
                             </AccordionSummary>
                             <AccordionDetails>
