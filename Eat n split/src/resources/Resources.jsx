@@ -5,9 +5,9 @@ const Resources = [
         imageUrl : "/src/resources/images/adhavan.jpg"
     },
     {
-        name : "Meena",
+        name : "Naresh",
         amount : 0,
-        imageUrl : "/src/resources/images/meena.jpeg"
+        imageUrl : "/src/resources/images/meen.jpeg"
     },
     {
         name : "Adhavan",
@@ -15,9 +15,9 @@ const Resources = [
         imageUrl : "/src/resources/images/adhavan.jpg"
     },
     {
-        name : "Meena",
+        name : "Naresh",
         amount : 0,
-        imageUrl : "/src/resources/images/meena.jpeg"
+        imageUrl : "/src/resources/images/meen.jpeg"
     }
 ]
 
