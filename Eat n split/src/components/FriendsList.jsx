@@ -39,7 +39,7 @@ const FriendsList = ({resources, handleUpdateAmount}) => {
 
     return (
         <>
-            <div className=" bg-red-400 w-[400px] p-1 rounded-xl ml-32">
+            <div className=" bg-red-400 w-[430px] p-1 rounded-xl ml-32">
                 {
                     resources.map((resource) => {
                         return  (
