@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { ListMovies } from "../service/ApiService"
 import { useState } from "react"
 import Navbar from "./Navbar"
+import Movie from "./Movie"
 
 const Home = () => {
 
@@ -19,13 +20,14 @@ const Home = () => {
 
 
     return (
+        
         <>
         <Navbar/>
-        <div className="">
+        <div className="grid grid-cols-5 gap-2 p-4 w-[1500px] mx-auto">
             {
-                movies != null && movies.map((movie, index) => {
-                    return <img src={"https://image.tmdb.org/t/p/w200/" + movie.poster_path} alt={movie.title}></img>
-                })
+                movies && movies.map((movie) => {
+                    return <Movie key={movie.id} movie={movie}/>
+                })        
             }
         </div>
         </>
