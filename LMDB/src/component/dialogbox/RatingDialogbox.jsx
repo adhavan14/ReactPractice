@@ -2,8 +2,11 @@ import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import CloseButton from '../buttons/CloseButton';
 import Button from '../buttons/Button';
+import { useState } from 'react';
 
 const RatingDialogbox = ({open, handleClose, movieName}) => {
+
+    const [hover, setHover] = useState(0)
 
     return (
         <Dialog open={open}>
@@ -26,19 +29,18 @@ const RatingDialogbox = ({open, handleClose, movieName}) => {
                         <button
                             type="button"
                             key={index}
-                            // className={index <= (hover || rating) ? "on" : "off"}
-                            // onClick={() => setRating(index)}
-                            // onMouseEnter={() => setHover(index)}
-                            // onMouseLeave={() => setHover(rating)}
+                            className={index <= hover && "text-[#1560bd]"}
+                            onMouseEnter={() => setHover(index)}
+                            onMouseLeave={() => setHover(index)}
                         >
-                            <span className='p-1'>&#9734;</span>
+                            <span className='p-1 '>&#9733;</span>
                         </button>
                         );
                     })
                 }
                 </div>
                 <div className='mx-auto mt-5'>
-                    <Button name={"Rate"}></Button>
+                    <Button name={"Rate"} handleClose={handleClose}></Button>
                 </div>
             </div>
         </Dialog>
