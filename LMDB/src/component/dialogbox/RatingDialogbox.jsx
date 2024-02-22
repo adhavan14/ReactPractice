@@ -1,5 +1,4 @@
 import Dialog from '@mui/material/Dialog';
-import DialogTitle from '@mui/material/DialogTitle';
 import CloseButton from '../buttons/CloseButton';
 import Button from '../buttons/Button';
 import { useState } from 'react';

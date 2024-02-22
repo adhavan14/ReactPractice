@@ -8,3 +8,8 @@ export const ListMovies = async() => {
     const moviesList = await axios.get(baseUrl + "discover/movie", {headers:header})
     return moviesList.data
 }
+
+export const MovieDetails = async(movie_id) => {
+    const movieDetails = await axios.get(baseUrl + `movie/${movie_id}`, {headers:header})
+    return movieDetails.data
+}
