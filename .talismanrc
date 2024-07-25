@@ -21,4 +21,28 @@ fileignoreconfig:
   checksum: e836d5820fec07b9c29875dd2d002632fd3262b36b0f4332df96ffd706563f75
 - filename: Flashcard/yarn.lock
   checksum: 620b19d60c4c4049192524a316d8374f28bd90d8e8c4822a785410ebd1da104d
+- filename: Accordian/public/vite.svg
+  checksum: 0adf391145337feb91fd37713b5d263a220754d0e3927b958e1bc0ffc4d55b51
+- filename: Accordian/yarn.lock
+  checksum: 81edd741b079a9228538ee9e2baa91dd7236545781e4098b72499598d780b277
+- filename: Tip Calculator/public/vite.svg
+  checksum: 4a10c3d5aec3b0da2840d3e2935ca76e6971370136733bbb785e5013704e267b
+- filename: Tip Calculator/yarn.lock
+  checksum: 432dcf29dea0a9d436c4da216eb473d0c22ca03c729fdc5b6adb372d0568174c
+- filename: Eat n split/public/vite.svg
+  checksum: 96131c98f512b09fb5bbfcae672d43dc2d8eb31616c5a54418daaf699710134a
+- filename: Eat n split/yarn.lock
+  checksum: 5bbda218f5def0fa9b81f064b1c3662a6df27dc81a5718203a70c807a92f0595
+- filename: Text Expander/public/vite.svg
+  checksum: d43b6b35405ca17827765b6589e992d1d1de01457949d0e17bcc2be6a9f15a14
+- filename: Text Expander/yarn.lock
+  checksum: 89e4da65ace0bb007574ff71d654caeb480557145c14030048a780f502356d10
+- filename: LMDB/public/vite.svg
+  checksum: f00b81748b9168e618062b99ef399bca9c3b5a291a9e2c6ed9ca9ca276ca6864
+- filename: LMDB/yarn.lock
+  checksum: 1e513701a9cbb2e5f383ae6c7904a8db44d08f39e1977bc725e40f48ccead0c4
+- filename: LMDB/src/service/ApiService.jsx
+  checksum: 2dac0d874ebf7f1f774b535a762599c7edcdaaba51de04133dec6a5ffebbcb66
+- filename: LMDB/src/component/Home.jsx
+  checksum: 1485de36b5164ebbfc38a1c004b2fe4aa9c2290c1484ed6511727ca88b321509
 version: ""

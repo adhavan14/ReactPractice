@@ -6,7 +6,7 @@ const Splitter = ({selectedResource, handleCancel, handleSplit, handlePaidData})
 
 
     return (
-        <div className="bg-orange-200 w-[400px] h-[300px] ml-32 rounded-xl flex flex-col p-6">
+        <div key={selectedResource.name} className="bg-orange-200 w-[400px] h-[300px] ml-32 rounded-xl flex flex-col p-6">
             <p className="p-2">SPLIT A BILL WITH {selectedResource.name.toUpperCase()}</p>
             <div className="p-2 flex justify-between">
                 <label>Bill value</label>
