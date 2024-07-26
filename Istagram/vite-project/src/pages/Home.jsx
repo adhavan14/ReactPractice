@@ -13,6 +13,7 @@ const Home = () => {
 
     return (
         <>
+            <div>Home</div>
             <Menu userId = {userId} setSearchUsers={setSearchUsers}></Menu>
             <SearchProfiles searchUsers={searchUsers}></SearchProfiles>
         </>
